@@ -16,7 +16,7 @@ function App() {
   const [inputMessage, setInputMessage] = useState("");
   const [isRecording, setIsRecording] = useState(false);
   const [sessionId] = useState(() => `session-${Date.now()}`);
-  const [language, setLanguage] = useState("auto");
+  const [language, setLanguage] = useState("english");
   const [isLoading, setIsLoading] = useState(false);
   const scrollRef = useRef(null);
   const recognitionRef = useRef(null);
