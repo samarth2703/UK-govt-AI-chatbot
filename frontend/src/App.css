@@ -146,14 +146,13 @@ body {
 }
 
 .welcome-icon {
-  width: 80px;
-  height: 80px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  width: 100px;
+  height: 100px;
+  background: white;
   border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
   margin-bottom: 1.5rem;
   box-shadow: 0 8px 24px rgba(102, 126, 234, 0.3);
 }
