@@ -253,10 +253,11 @@ function App() {
                     <div className="message bot" data-testid="loading-indicator">
                       <div className="message-avatar">
                         <div className="bot-avatar">
-                          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
-                            <path d="M2 17l10 5 10-5"/>
-                          </svg>
+                          <img 
+                            src="https://customer-assets.emergentagent.com/job_9319b90e-b15b-4bfe-90b2-ea8f2a1a5349/artifacts/24jsyofy_Seal_of_Uttarakhand.svg.png" 
+                            alt="Bot"
+                            style={{ width: '24px', height: '24px', objectFit: 'contain' }}
+                          />
                         </div>
                       </div>
                       <div className="message-content">
