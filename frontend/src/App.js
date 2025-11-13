@@ -132,9 +132,10 @@ function App() {
   };
 
   const toggleLanguage = () => {
-    setLanguage(prev => prev === "english" ? "hindi" : "english");
+    const newLang = language === "english" ? "hindi" : "english";
+    setLanguage(newLang);
     if (recognitionRef.current) {
-      recognitionRef.current.lang = language === "english" ? "hi-IN" : "en-US";
+      recognitionRef.current.lang = newLang === "hindi" ? "hi-IN" : "en-US";
     }
   };
 
