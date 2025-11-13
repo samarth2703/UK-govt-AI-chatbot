@@ -1,0 +1,52 @@
+{
+  "summary": {
+    "total_tests": 7,
+    "passed_tests": 7,
+    "success_rate": 100.0,
+    "timestamp": "2025-11-13T09:00:52.557054"
+  },
+  "test_results": [
+    {
+      "test_name": "API Root Endpoint",
+      "status": "PASSED",
+      "details": "Status: 200, Response: Apni Sarkar Bot API is running",
+      "timestamp": "2025-11-13T08:59:47.449568"
+    },
+    {
+      "test_name": "Chat Endpoint (English)",
+      "status": "PASSED",
+      "details": "Status: 200, Response length: 587 chars, Language: english, Contains relevant content",
+      "timestamp": "2025-11-13T09:00:07.581771"
+    },
+    {
+      "test_name": "Chat Endpoint (Hindi)",
+      "status": "PASSED",
+      "details": "Status: 200, Response length: 770 chars, Language: hindi",
+      "timestamp": "2025-11-13T09:00:52.242029"
+    },
+    {
+      "test_name": "Chat History Retrieval",
+      "status": "PASSED",
+      "details": "Status: 200, History count: 2 messages, All required fields present",
+      "timestamp": "2025-11-13T09:00:52.354047"
+    },
+    {
+      "test_name": "Clear Session",
+      "status": "PASSED",
+      "details": "Status: 200, Deleted count: 2",
+      "timestamp": "2025-11-13T09:00:52.436078"
+    },
+    {
+      "test_name": "Invalid Endpoint Handling",
+      "status": "PASSED",
+      "details": "Status: 404 (Expected 404)",
+      "timestamp": "2025-11-13T09:00:52.515625"
+    },
+    {
+      "test_name": "Malformed Request Handling",
+      "status": "PASSED",
+      "details": "Status: 422 (Expected 400/422)",
+      "timestamp": "2025-11-13T09:00:52.556088"
+    }
+  ]
+}
