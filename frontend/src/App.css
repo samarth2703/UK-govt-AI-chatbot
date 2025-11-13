@@ -46,13 +46,13 @@ body {
 .logo-icon {
   width: 48px;
   height: 48px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: white;
   border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
   box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+  padding: 4px;
 }
 
 .logo-icon svg {
